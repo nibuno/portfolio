@@ -1,5 +1,4 @@
 import React from 'react'
-import archerflog from '../images/archer-flog.png'
 
 const Intro = () => (
     <div id="intro">
