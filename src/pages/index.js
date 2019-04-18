@@ -5,9 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Intro from '../components/intro'
 
-import Skills from '../Components/skills'
-import Bio from '../Components/bio'
-import Contact from '../Components/contact'
+import Skills from '../components/skills'
+import Bio from '../components/bio'
+import Contact from '../components/contact'
 
 
 
