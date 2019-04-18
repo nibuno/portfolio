@@ -3,7 +3,7 @@ import illustrator from '../images/illustrator.svg'
 import indesign from '../images/InDesign.svg'
 import photoshop from '../images/Photoshop.svg'
 import php from '../images/php-logo.svg'
-import access from '../images/access_2010.png'
+import access from '../images/Access_2010.png'
 
 export const Skills = () => (
     <div id="skills">
