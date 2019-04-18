@@ -1,5 +1,5 @@
 import React from 'react'
-import illustrator from '../images/illustrator.svg'
+import illustrator from '../images/Illustrator.svg'
 import indesign from '../images/InDesign.svg'
 import photoshop from '../images/Photoshop.svg'
 import php from '../images/php-logo.svg'
