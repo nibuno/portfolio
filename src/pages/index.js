@@ -7,7 +7,7 @@ import Intro from '../components/intro'
 
 import Skills from '../Components/skills'
 import Bio from '../Components/bio'
-import Contact from '../Components/Contact'
+import Contact from '../Components/contact'
 
 
 
