@@ -1,7 +1,6 @@
 import React from "react"
-// import { Link } from "gatsby"
-
-import Layout from "../components/layout"
+import { graphql } from "gatsby"
+import Layout from "@components/templates/layout"
 import SEO from "../components/seo"
 import Intro from '../components/intro'
 
@@ -11,16 +10,50 @@ import Contact from '../components/contact'
 
 
 
-const IndexPage = () => (
+const IndexPage = ( data ) => (
   <Layout>
-    {/* <Image /> */}
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `転職`]} />
-    <Intro />
-    <Skills />
-    <Bio />
-    <Contact />
+    <div className="flex-col">
+      <Intro />
+      <Skills />
+      <Bio />
+      <Contact />
+    </div>
   </Layout>
 )
-
-
 export default IndexPage
+
+
+// export const query = graphql`
+//   query {
+//     allMarkdownRemart(
+//       sort: { order: DESC, fields: [frontmatter___date]},
+//       limit: 4
+//     ) {
+//       totalCount
+//       edges {
+//         node {
+//           id
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//             title
+//             description
+//             date(formatString: "YYYY.MM.DD"),
+//             hero {
+//               publicURL
+//               childImageSharp {
+//                 fluid(maxWidth: 980) {
+//                   ...GatsbyImageSharpFluid
+//                 }
+//               }
+//             }
+//           }
+//           excerpt
+//         }
+//       }
+//     }
+//     )
+//   }
+// `
