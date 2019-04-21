@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+// import { graphql } from "gatsby"
 import Layout from "@components/templates/layout"
 import SEO from "../components/seo"
 import Intro from '../components/intro'
@@ -26,7 +26,7 @@ export default IndexPage
 
 // export const query = graphql`
 //   query {
-//     allMarkdownRemart(
+//     allMarkdownRemark(
 //       sort: { order: DESC, fields: [frontmatter___date]},
 //       limit: 4
 //     ) {
@@ -54,6 +54,5 @@ export default IndexPage
 //         }
 //       }
 //     }
-//     )
 //   }
 // `

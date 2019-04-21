@@ -3,7 +3,7 @@ body {
 }
 
 a {
-  @apply text-indego-dark;
+  @apply text-indigo-dark;
 }
 
 .logo {

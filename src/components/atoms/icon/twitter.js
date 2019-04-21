@@ -16,7 +16,7 @@ const TwitterIcon = ({ className }) => {
     )
   }
 
-  TwitterIcon.PropTypes = {
+  TwitterIcon.propTypes = {
       className: PropTypes.string
   }
 

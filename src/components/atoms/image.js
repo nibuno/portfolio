@@ -6,7 +6,7 @@ const Image = (props) => (
   <StaticQuery
     query={graphql`
       query {
-        images: allfile {
+        images: allFile {
           edges {
             node {
               relativePath
@@ -23,7 +23,7 @@ const Image = (props) => (
     `}
     
     render={(data) => {
-      const image = data.images.edfes.find(n => {
+      const image = data.images.edges.find(n => {
         return n.node.relativePath.includes(props.filename);
       });
       if (!image) {return null; }

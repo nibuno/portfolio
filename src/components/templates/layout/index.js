@@ -42,7 +42,7 @@ class Layout extends React.Component  {
             <div className="min-h-screen flex flex-col">
               <Header
                 siteTitle={data.site.siteMetadata.title}
-                scrolly={this.state.y}
+                scrollY={this.state.y}
               />
               <div className="flex-grow">
                 <main>{children}</main>

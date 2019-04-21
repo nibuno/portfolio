@@ -1,3 +1,6 @@
+// https://www.gatsbyjs.org/packages/gatsby-image/
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: `Yumihiki`,
@@ -27,8 +30,20 @@ module.exports = {
         icon: `src/images/archer-flog-ss.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@": path.resolve(__dirname),
+          "@components": path.resolve(__dirname, 'src/components'),
+          "@contents": path.resolve(__dirname, 'contents')
+        },
+        extensions: []
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
+    `gatsby-plugin-postcss`,
   ],
 }
