@@ -12,7 +12,7 @@ const Footer = () => (
         <a href="https://github.com/Yumihiki" target="_blank" rel="noreferrer noopener" aria-label="github" className="text-grey hover:text-grey-darker mr-6">
           <GithubIcon className="fill-current w-10 h-10" />
         </a>
-        <a href="https://twitter.com/sakura-willow" target="_blank" rel="noreferrer noopener" aria-label="twitter" className="text-grey hover:text-grey-darker mr-6">
+        <a href="https://twitter.com/sakura_willow" target="_blank" rel="noreferrer noopener" aria-label="twitter" className="text-grey hover:text-grey-darker mr-6">
           <TwitterIcon className="fill-current w-10 h-10" />
         </a>
         <a href="mailto:nibu10.majik@gmail.com" target="_blank" rel="noreferrer noopener" aria-label="email" className="text-grey hover:text-grey-darker">
@@ -20,7 +20,7 @@ const Footer = () => (
         </a>
       </div>
       <div className="w-full text-xs sm:text-sm text-center">
-        Copyright © {new Date().getFullYear()} @nnn All Rights Reserved.
+        Copyright © {new Date().getFullYear()} @sakura_willow All Rights Reserved.
       </div>
       <div className="flex items-center justify-center text-xs text-center mt-4">
         made with GatsbyJS

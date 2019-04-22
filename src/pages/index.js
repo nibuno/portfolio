@@ -1,7 +1,8 @@
 import React from "react"
 // import { graphql } from "gatsby"
 import Layout from "@components/templates/layout"
-import SEO from "../components/seo"
+import SEO from "@components/seo"
+import Welcome from "@components/organisms/home/welcome"
 import Intro from '../components/intro'
 
 import Skills from '../components/skills'
@@ -14,6 +15,7 @@ const IndexPage = ( data ) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `転職`]} />
     <div className="flex-col">
+      <Welcome />
       <Intro />
       <Skills />
       <Bio />
