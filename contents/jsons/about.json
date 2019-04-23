@@ -1,0 +1,19 @@
+{
+  "MyProfile": {
+    "description": "WEBエンジニア志望のYumihikiです。",
+    "profile": {
+      "Name": "Yumihiki",
+      "Address": "Osaka",
+      "Email": "nibu10.majik@gmail.com"
+    }
+  },
+  "mySkills": {
+    "description": "イラストレーターを使用してチラシ作りを行えます。",
+    "skills": [
+      {
+        "name": "Illustrator",
+        "percentage": "80%"
+      }
+    ]
+  }
+}
