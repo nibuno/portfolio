@@ -1,5 +1,5 @@
 {
-  "MyProfile": {
+  "myProfile": {
     "description": "WEBエンジニア志望のYumihikiです。",
     "profile": {
       "Name": "Yumihiki",
@@ -7,7 +7,7 @@
       "Email": "nibu10.majik@gmail.com"
     }
   },
-  "mySkills": {
+  "mySkill": {
     "description": "イラストレーターを使用してチラシ作りを行えます。",
     "skills": [
       {

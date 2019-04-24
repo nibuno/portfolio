@@ -14,7 +14,6 @@ const TitleStyled = styled.h2`
     ${tw`absolute w-3 h-3 rounded-full bg-black`};
   }
 `
-
 const SubtitleStyled = styled.p`
   ${tw`text-center text-grey-darker text-base`}
 `
@@ -29,4 +28,4 @@ const SectionTitle = ({ title, subtitle }) => {
   )
 }
 
-export default Sectiontitle
+export default SectionTitle

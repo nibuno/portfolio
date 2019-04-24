@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "@components/templates/layout"
 import SEO from "@components/seo"
 import Welcome from "@components/organisms/home/welcome"
+import About from "@components/organisms/home/about"
 import Intro from '../components/intro'
 
 import Skills from '../components/skills'
@@ -16,6 +17,7 @@ const IndexPage = ( data ) => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `転職`]} />
     <div className="flex-col">
       <Welcome />
+      <About />
       <Intro />
       <Skills />
       <Bio />
