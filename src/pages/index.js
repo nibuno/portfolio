@@ -4,11 +4,8 @@ import Layout from "@components/templates/layout"
 import SEO from "@components/seo"
 import Welcome from "@components/organisms/home/welcome"
 import About from "@components/organisms/home/about"
-import Intro from '../components/intro'
+import Works from "@components/organisms/home/works"
 
-import Skills from '../components/skills'
-import Bio from '../components/bio'
-import Contact from '../components/contact'
 
 
 
@@ -18,10 +15,7 @@ const IndexPage = ( data ) => (
     <div className="flex-col">
       <Welcome />
       <About />
-      <Intro />
-      <Skills />
-      <Bio />
-      <Contact />
+      <Works />
     </div>
   </Layout>
 )
