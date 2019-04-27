@@ -1,5 +1,5 @@
 import React from "react"
-// import { graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "@components/templates/layout"
 import SEO from "@components/seo"
 import Welcome from "@components/organisms/home/welcome"
@@ -23,35 +23,35 @@ const IndexPage = ( data ) => (
 export default IndexPage
 
 
-// export const query = graphql`
-//   query {
-//     allMarkdownRemark(
-//       sort: { order: DESC, fields: [frontmatter___date]},
-//       limit: 4
-//     ) {
-//       totalCount
-//       edges {
-//         node {
-//           id
-//           fields {
-//             slug
-//           }
-//           frontmatter {
-//             title
-//             description
-//             date(formatString: "YYYY.MM.DD"),
-//             hero {
-//               publicURL
-//               childImageSharp {
-//                 fluid(maxWidth: 980) {
-//                   ...GatsbyImageSharpFluid
-//                 }
-//               }
-//             }
-//           }
-//           excerpt
-//         }
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date]},
+      limit: 4
+    ) {
+      totalCount
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            description
+            date(formatString: "YYYY.MM.DD"),
+            hero {
+              publicURL
+              childImageSharp {
+                fluid(maxWidth: 980) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          excerpt
+        }
+      }
+    }
+  }
+`

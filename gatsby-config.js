@@ -13,7 +13,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/contents/images`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -30,6 +30,63 @@ module.exports = {
         icon: `src/images/archer-flog-ss.png`, // This path is relative to the root of the site.
       },
     },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // 'gatsby-plugin-offline',
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/contents/posts`,
+        name: `posts`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        commonmark: true,
+        footnotes: true,
+        pedantic: true,
+        gfm: true,
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow, noopener, noreferrer"
+            }
+          },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: `100`,
+              icon: false,
+              className: `custom-class`,
+              maintainCase: false,
+            },
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
+          `gatsby-remark-component`
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
@@ -41,9 +98,6 @@ module.exports = {
         extensions: []
       }
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // 'gatsby-plugin-offline',
-    `gatsby-plugin-postcss`,
+    `gatsby-plugin-netlify`
   ],
 }
