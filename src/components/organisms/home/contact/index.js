@@ -47,7 +47,7 @@ const Contact = () => (
             type="email"
             name="email"
             placeholder="example@email.com"
-            className="appearance-none block w-full text-grey-lighter text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-grey"
+            className="appearance-none block w-full bg-grey-lighter text-grey-darker border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-grey"
             required
           />
           </div>

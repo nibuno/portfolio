@@ -26,7 +26,7 @@ class BlogPostTemplate extends React.Component {
             <ArticleSection post={post} previous={previous} next={next} />
             <ProfileSection />
           </div>
-        </div> 
+        </div>
       </Layout>
     )
   }
@@ -52,8 +52,15 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        date
-        hero 
+        date(formatString: "YYYY.MM.DD"),
+        hero {
+          publicURL
+          childImageSharp {
+            fluid(maxWidth: 980) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

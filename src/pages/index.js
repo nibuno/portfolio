@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql } from 'gatsby'
 import Layout from "@components/templates/layout"
 import SEO from "@components/seo"
 import Welcome from "@components/organisms/home/welcome"
@@ -8,10 +8,9 @@ import Works from "@components/organisms/home/works"
 import Blog from "@components/organisms/home/blog"
 import Contact from "@components/organisms/home/contact"
 
-
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `転職`]} />
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="flex flex-col">
       <Welcome />
       <About />
@@ -21,6 +20,7 @@ const IndexPage = ({ data }) => (
     </div>
   </Layout>
 )
+
 export default IndexPage
 
 
@@ -40,8 +40,15 @@ export const query = graphql`
           frontmatter {
             title
             description
-            date
-            hero 
+            date(formatString: "YYYY.MM.DD"),
+            hero {
+              publicURL
+              childImageSharp {
+                fluid(maxWidth: 980) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           excerpt
         }
