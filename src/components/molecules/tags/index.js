@@ -25,7 +25,7 @@ const Tags = ({ tags }) => {
   return (
     <TagsStyle>
       {tags.map((value, index) => {
-        return <li ley={index} className="mr-1">{value}</li>
+        return <li key={index} className="mr-1">{value}</li>
       })}
     </TagsStyle>
   )

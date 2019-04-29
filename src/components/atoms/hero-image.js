@@ -2,9 +2,9 @@ import React from 'react'
 import GatsbyImage from 'gatsby-image'
 
 const HeroImage = ({ node, props }) => {
-  if (node.childImageSharp && node.childImageSharp.fuild) {
+  if (node.childImageSharp && node.childImageSharp.fluid) {
     // eslint-disable-next-line
-    return <GatsbyImage fluid={node.childImageSharp.fuild} {...props} />
+    return <GatsbyImage fluid={node.childImageSharp.fluid} {...props} />
   }
 
   if (node.childImageSharp && node.childImageSharp.fixed) {

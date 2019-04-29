@@ -2,16 +2,16 @@ import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import tw from "tailwind.macro"
-import InViewMonitor from "react-inview-monitor";
-import SectionTitle from "@components/atoms/section_title";
-import HeroImage from "@components/atoms/hero-image";
+import InViewMonitor from 'react-inview-monitor';
+import SectionTitle from '@components/atoms/section_title';
+import HeroImage from '@components/atoms/hero-image';
 
 const Section = styled.section`
   ${tw`w-full bg-white`};
 `
 
 const Blog = (props) => {
-  if(0 === props.totalCout) {
+  if (0 === props.totalCount) {
     return null
   }
   return (

@@ -11,7 +11,7 @@ const TimelineItemStyle = styled.div`
   &:after {
     left: -7px;
     content: '';
-    ${tw`absolute pin-t mt-4 bg-grey-darkborder-l-2 border-grey-dark rounded-full w-3 h-3`};
+    ${tw`absolute pin-t mt-4 bg-grey-dark border-l-2 border-grey-dark rounded-full w-3 h-3`};
   }
 
   & > h3 {
@@ -50,7 +50,7 @@ const TimelineItem = ({ work }) => {
   )
 }
 
-TimelineItemStyle.propTypes = {
+TimelineItem.propTypes = {
   work: PropTypes.object
 }
 

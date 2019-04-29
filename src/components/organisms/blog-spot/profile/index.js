@@ -45,7 +45,7 @@ const ProfileSection = () => (
         <div className="mx-auto">
           <div
             className="rounded-full mb-5 lg:mb-0 lg:mr-5"
-            styled={{ width: `100px` }}
+            style={{ width: `100px` }}
           >
             <Image filename="avator.jpg" alt="GatsbyJS" />
           </div>

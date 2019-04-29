@@ -6,7 +6,7 @@ import tw from "tailwind.macro"
 
 
 const BreadcrumbStyled = styled.div`
-  ${tw`lg:w-2/3 lg:mx-auto overflow-scroll whitespace-no-wrap`};
+  ${tw`lg:w-2/3 lg:mx-auto overflow-xscroll whitespace-no-wrap`};
 
   & > .container {
     ${tw`mx-auto h-full`};
@@ -39,7 +39,7 @@ const BreadcrumbStyled = styled.div`
 `
 
 const Breadcrumb = ({ breadcrumbs }) => (
-  <BreadvrumbStyled>
+  <BreadcrumbStyled>
     <div className="container">
       <nav>
         <ol className="breadcrumb">
@@ -59,7 +59,7 @@ const Breadcrumb = ({ breadcrumbs }) => (
         </ol>
       </nav>
     </div>
-  </BreadvrumbStyled>
+  </BreadcrumbStyled>
 )
 
 

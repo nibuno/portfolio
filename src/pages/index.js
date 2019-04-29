@@ -9,10 +9,10 @@ import Blog from "@components/organisms/home/blog"
 
 
 
-const IndexPage = ( data ) => (
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `転職`]} />
-    <div className="flex-col">
+    <div className="flex flex-col">
       <Welcome />
       <About />
       <Works />

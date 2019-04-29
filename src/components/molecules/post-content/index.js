@@ -8,7 +8,7 @@ import Iframely from "@components/atoms/iframely"
 const ContentStyled = styled.div`
   ${tw`p-4 leading-normal`};
 
-  a[target="_blank"]:not(.gatsby-resp=image-link)::after {
+  a[target="_blank"]:not(.gatsby-resp-image-link)::after {
     content: '';
     display: inline-block;
     top: 0em;
@@ -48,8 +48,8 @@ const ContentStyled = styled.div`
     ${tw`relative italic text-grey-dark bg-grey-lighter mb-4 py-4 px-10`};
 
     &:before {
-      content: '""';
-      ${tw`inline-block absolute text-grey-darker text-3xl pin-t pin-l pl-44 pt-2`};
+      content: '"';
+      ${tw`inline-block absolute text-grey-darker text-3xl pin-t pin-l pl-4 pt-2`};
     }
 
     p {

@@ -5,9 +5,9 @@ import tw from "tailwind.macro"
 const TitleStyled = styled.h2`
   ${tw`text-center w-full font-bold mt-20 mb-10 text-4xl relative inline-block px-5`};
 
-  $:before {
+  &:before {
     content: "";
-    -webkit-transformL translateY(50%) translateX(-50%);
+    -webkit-transform: translateY(50%) translateX(-50%);
     transform: translateY(50%) translateX(-50%);
     left: 50%;
     top: 40px;
