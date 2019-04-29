@@ -6,6 +6,7 @@ module.exports = {
     title: `Yumihiki`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
+    siteUrl: `https://yumihiki-portfolio.netlify.com/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,7 +28,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `contents/images/archer-flog-ss.png`, // This path is relative to the root of the site.
+        icon: `contents/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
@@ -72,6 +73,18 @@ module.exports = {
               className: `custom-class`,
               maintainCase: false,
             },
+          },
+          {
+            resolve: 'gatsby-remark-toc',
+            options: {
+              header: '目次',
+              include: [
+                'contents/**/*.md'
+              ],
+              mdastUtilTocOptions: {
+                maxDepth: 3
+              }
+            }
           },
           {
             resolve: `gatsby-remark-prismjs`,

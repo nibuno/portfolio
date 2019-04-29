@@ -10,7 +10,7 @@ import ProfileSection from "@components/organisms/blog-post/profile"
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.Title
+    const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
     return (
@@ -42,7 +42,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    markdownRemark(fieldsL { slug: { eq: $slug } }) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       fields {
         slug
@@ -52,15 +52,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        date(formatString: "YYYY.MM.DD"),
-        hero {
-          publicURL
-          childImageSharp {
-            fluid(maxWidth: 980) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        date
+        hero 
       }
     }
   }
