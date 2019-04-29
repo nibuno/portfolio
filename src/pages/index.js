@@ -6,7 +6,6 @@ import Welcome from "@components/organisms/home/welcome"
 import About from "@components/organisms/home/about"
 import Works from "@components/organisms/home/works"
 import Blog from "@components/organisms/home/blog"
-import Contact from "@components/organisms/home/contact"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -16,7 +15,6 @@ const IndexPage = ({ data }) => (
       <About />
       <Works />
       <Blog totalCount={data.allMarkdownRemark.totalCount} posts={data.allMarkdownRemark.edges} />
-      <Contact />
     </div>
   </Layout>
 )

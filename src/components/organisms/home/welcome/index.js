@@ -4,7 +4,6 @@ import tw from "tailwind.macro"
 import heroImage from "@contents/images/home-hero-image.jpg"
 import TwitterIcon from "@components/atoms/icon/twitter"
 import GithubIcon from "@components/atoms/icon/github"
-import EnvelopeSolidIcon from "@components/atoms/icon/envelope-solid"
 
 const SectionStyled = styled.section`
   ${tw`w-full`};
@@ -25,7 +24,7 @@ const Welcome = () => (
       <div className="flex justify-center items-center px-4 p-10">
         <div className="text-center w-full">
           <h3 className="text-black text-3xl">Hi, Everyone</h3>
-          <h1 className="text-black font-bold my-5 text-5xl">I'm Yumihiki</h1>
+          <h1 className="text-black font-bold my-5 text-5xl">I'm Yumihiki!</h1>
           <p className="text-black text-3xl">Designer / PHPer / Kyuder</p>
           <div className="my-10">
           <a href="https://github.com/Yumihiki" target="_blank" rel="noreferrer noopener" aria-label="github" className="text-white hover:text-grey-darker mr-6">
@@ -33,9 +32,6 @@ const Welcome = () => (
               </a>
               <a href="https://twitter.com/sakura_willow" target="_blank" rel="noreferrer noopener" aria-label="twitter" className="text-white hover:text-grey-darker mr-6">
                 <TwitterIcon className="fill-current w-10 h-10" />
-              </a>
-              <a href="mailto:nibu10.majik@gmail.com" target="_blank" rel="noreferrer noopener" aria-label="email" className="text-white hover:text-grey-darker">
-                <EnvelopeSolidIcon className="fill-current w-10 h-10" />
               </a>
           </div>
         </div>

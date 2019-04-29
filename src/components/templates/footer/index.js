@@ -2,7 +2,6 @@ import React from "react"
 import Image from "@components/atoms/image"
 import TwitterIcon from "@components/atoms/icon/twitter"
 import GithubIcon from "@components/atoms/icon/github"
-import EnvelopeSolidIcon from "@components/atoms/icon/envelope-solid"
 
 const Footer = () => (
 <footer>
@@ -14,9 +13,6 @@ const Footer = () => (
         </a>
         <a href="https://twitter.com/sakura_willow" target="_blank" rel="noreferrer noopener" aria-label="twitter" className="text-grey hover:text-grey-darker mr-6">
           <TwitterIcon className="fill-current w-10 h-10" />
-        </a>
-        <a href="mailto:nibu10.majik@gmail.com" target="_blank" rel="noreferrer noopener" aria-label="email" className="text-grey hover:text-grey-darker">
-          <EnvelopeSolidIcon className="fill-current w-10 h-10" />
         </a>
       </div>
       <div className="w-full text-xs sm:text-sm text-center">

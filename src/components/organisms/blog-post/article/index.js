@@ -40,7 +40,6 @@ const ArticleSection = ({ post, previous, next}) => (
       </p>
       <h1>{post.frontmatter.title}</h1>
       <p className="description">{post.frontmatter.description}</p>
-      <HeroImage node={post.frontmatter.hero} props={{ alt: post.frontmatter.title }} />
       <hr/>
       <PostContent post={post} />
       <hr />

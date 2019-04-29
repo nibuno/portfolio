@@ -3,16 +3,23 @@
     "description": "WEBエンジニア志望のYumihikiです。",
     "profile": {
       "Name": "Yumihiki",
-      "Address": "Osaka",
-      "Email": "nibu10.majik@gmail.com"
+      "Address": "Osaka"
     }
   },
   "mySkill": {
-    "description": "イラストレーターを使用してチラシ作りを行えます。",
+    "description": "イラストレーターを中心に利用してチラシ・ポスター・バナーを作ることが得意です。",
     "skills": [
       {
         "name": "Illustrator",
         "percentage": "80%"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "70%"
+      },
+      {
+        "name": "InDesign",
+        "percentage": "50%"
       }
     ]
   }
