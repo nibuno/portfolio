@@ -8,14 +8,14 @@ import GithubIcon from "@components/atoms/icon/github"
 const SectionStyled = styled.section`
   ${tw`w-full`};
 
-  &::before {
-    background-image: url(${heroImage});
-    background-size: cover;
-    background-position: center;
-    content: "";
-    z-index: -1;
-    ${tw`h-full w-full absolute opacity-50`};
-  }
+  // &::before {
+  //   background-image: url(${heroImage});
+  //   background-size: cover;
+  //   background-position: center;
+  //   content: "";
+  //   z-index: -1;
+  //   ${tw`h-full w-full absolute opacity-50`};
+  // }
 `
 
 const Welcome = () => (
