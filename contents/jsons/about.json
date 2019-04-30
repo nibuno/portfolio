@@ -1,13 +1,13 @@
 {
   "myProfile": {
-    "description": "WEBエンジニア志望のYumihikiです。現職ではチラシ・ポスター製作、PHPを利用した社内ポータルサイトの開発・運用、自社ECサイトのCS・PRなど幅広く従事しています。",
+    "description": "WEBエンジニア志望のYumihikiです。1993年生まれの26歳です。現職ではチラシ・ポスター製作、PHPを利用した社内ポータルサイトの開発・運用、自社ECサイトのCS・PRなど幅広く従事しています。元弓道家（弓道家 = 弓引き）なので、Yumihikiと名乗っています。",
     "profile": {
       "Name": "Yumihiki",
       "Address": "Osaka"
     }
   },
   "mySkill": {
-    "description": "イラストレーターを中心に利用してチラシ・ポスター・バナーを作ることが得意です。",
+    "description": "イラストレーターを中心に利用してチラシ・ポスター・バナーを作ることができます。",
     "skills": [
       {
         "name": "Illustrator",

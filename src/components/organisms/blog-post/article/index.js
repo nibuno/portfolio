@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import tw from "tailwind.macro"
 import InViewMonitor from 'react-inview-monitor';
-import HeroImage from '@components/atoms/hero-image';
 import PostContent from '@components/molecules/post-content';
 
 

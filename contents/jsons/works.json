@@ -1,5 +1,38 @@
 [
   {
+    "title": " チラシ・ポスターのデザイン作成担当",
+    "description": "社内の新規取扱商品・イチオシ商品のチラシやキャンペーンのポスターのデザインを担当していました",
+    "started_on": "2015.8",
+    "ended_on": "",
+    "status": "",
+    "tags": [
+      "Illustrator", "Photoshop", "InDesign", "Camera"
+    ],
+    "link": ""
+  },
+  {
+    "title": " 自社カタログアプリ・ECサイトのCS・PR",
+    "description": "顧客向けのサービスの不具合の連絡・対応業務やPR業務を担当しています",
+    "started_on": "2016.7",
+    "ended_on": "",
+    "status": "",
+    "tags": [
+      ""
+    ],
+    "link": ""
+  },
+  {
+    "title": " Accessを利用した販促用紙作成システム作成",
+    "description": "はじめてプログラミングに触れました。正直この時はあまり楽しくありませんでした…",
+    "started_on": "2016.8",
+    "ended_on": "",
+    "status": "",
+    "tags": [
+      "Access", "VBA"
+    ],
+    "link": ""
+  },
+  {
     "title": " PHPを利用した社内ポータルサイト開発",
     "description": "HTMLなどの基礎知識ほぼ0からスタートしました。",
     "started_on": "2017.7",
