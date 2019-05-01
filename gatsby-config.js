@@ -75,15 +75,18 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-remark-toc',
+            resolve: 'gatsby-transformer-remark',
             options: {
-              header: '目次',
-              include: [
-                'contents/**/*.md'
-              ],
-              mdastUtilTocOptions: {
-                maxDepth: 3
-              }
+              // CommonMark mode (default: true)
+              commonmark: true,
+              // Footnotes mode (default: true)
+              footnotes: true,
+              // Pedantic mode (default: true)
+              pedantic: true,
+              // GitHub Flavored Markdown mode (default: true)
+              gfm: true,
+              // Plugins configs
+              plugins: [],
             }
           },
           {
