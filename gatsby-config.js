@@ -1,5 +1,6 @@
 // https://www.gatsbyjs.org/packages/gatsby-image/
 const path = require('path')
+const config = require('./data/siteConfig')
 
 module.exports = {
   siteMetadata: {
@@ -9,6 +10,12 @@ module.exports = {
     siteUrl: `https://yumihiki-portfolio.netlify.com/`
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: config.googleAnalyticsOD
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
