@@ -9,14 +9,7 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage, createRedirect } = actions
-
-  // createRedirect({
-  //   fromPath: 'https://yumihiki-portfolio.netlify.com/*',
-  //   toPath: 'https://github.com/Yumihiki',
-  //   isPermanent: true,
-  //   force: true
-  // })
+  const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   return graphql(

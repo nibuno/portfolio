@@ -38,15 +38,7 @@ export const query = graphql`
           frontmatter {
             title
             description
-            date(formatString: "YYYY.MM.DD"),
-            hero {
-              publicURL
-              childImageSharp {
-                fluid(maxWidth: 980) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            date(formatString: "YYYY.MM.DD")
           }
           excerpt
         }

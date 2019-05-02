@@ -5,7 +5,7 @@ const config = require('./data/siteConfig')
 module.exports = {
   siteMetadata: {
     title: `Yumihiki`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `エンジニア志望のYumihikiのポーフォリオサイトです`,
     author: `@gatsbyjs`,
     siteUrl: `https://yumihiki-portfolio.netlify.com/`
   },
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: config.googleAnalyticsID
+        trackingId: "UA-139439764-1"
       }
     },
     `gatsby-plugin-react-helmet`,
