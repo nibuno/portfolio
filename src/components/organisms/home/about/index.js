@@ -18,7 +18,7 @@ const ProfileBlock = styled.div`
   }
 
   & > p {
-    ${tw`mb-5 text-grey-darkest text-sm`};
+    ${tw`mb-5 text-grey-darkest text-base`};
   }
 
   & > dl > dt {
@@ -98,7 +98,7 @@ const About = () => (
       classNameInView='inview-section-active'
     >
       <div className="container mx-auto">
-        <SectionTitle title="ABOUT" subtitle="プロフィール" />
+        <SectionTitle title="ABOUT" subtitle="プロフィールとスキル" />
         <div className="lg:flex w-full my-6">
           <div className="flex-1 px-2">
             <ProfileBlock>

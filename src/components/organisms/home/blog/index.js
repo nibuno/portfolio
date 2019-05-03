@@ -4,6 +4,7 @@ import styled from "styled-components"
 import tw from "tailwind.macro"
 import InViewMonitor from 'react-inview-monitor';
 import SectionTitle from '@components/atoms/section_title';
+import PostCard from '@components/molecules/post-card';
 
 const Section = styled.section`
   ${tw`w-full bg-white`};
@@ -25,20 +26,15 @@ const Blog = (props) => {
 
             {props.posts.map(({ node }) => (
               <div key={node.fields.slug} className="mx-2 lg:flex lg:w-1/4">
-                <div className="shadow-lg my-2">
-                  <div　className="px-4 py-4">
-                    <Link to={`/post/${node.fields.slug}`} className="block text-black hover:text-grey-darkest font-bold text-lg mb-2 no-underline">{node.frontmatter.title}{" "}</Link>
-                      <p className="text-grey-darker text-sm">{node.frontmatter.description}{" "}</p>
-                      <div className="mt-4 text-right">
-                        <Link to={`/post/${node.fields.slug}`} className="inline-block bg-indigo text-white no-underline py-2 px-3 hover:bg-indigo-dark">More</Link>
-                      </div>
-                  </div>
-                </div>
+                <PostCard post={node} />
               </div>
             ))}
+
           </div>
         </div>
-
+        <div className="flex justify-center">
+          <Link to="/posts" className="my-10 py-4 px-20 text-grey-darkest bg-grey-lighter hover:bg-grey-light font-bold rounded-sm no-underline">記事一覧へ</Link>
+        </div>
       </InViewMonitor>
     </Section>
   )

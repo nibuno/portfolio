@@ -31,25 +31,22 @@ class Layout extends React.Component  {
           query SiteTitleQuery {
             site {
               siteMetadata {
-                title,
-                author
+                title
               }
             }
           }
         `}
         render={data => (
-          <>
-            <div className="min-h-screen flex flex-col">
-              <Header
-                siteTitle={data.site.siteMetadata.title}
-                scrollY={this.state.y}
-              />
-              <div className="flex-grow">
-                <main>{children}</main>
-              </div>
-              <Footer />
+          <div className="min-h-screen flex flex-col">
+            <Header
+              siteTitle={data.site.siteMetadata.title}
+              scrollY={this.state.y}
+            />
+            <div className="flex-grow">
+              <main>{children}</main>
             </div>
-          </>
+            <Footer />
+          </div>
         )}
       />
     )

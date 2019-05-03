@@ -2,7 +2,7 @@
 title: "TailwindCSSって何？"
 description: "初心者がTailwindCSSについて調べてみた"
 date: "2019-04-30"
-tags: "#TailwindCSS"
+tags: ["初心者", "TailwindCSS"]
 ---
 
 ## はじめに

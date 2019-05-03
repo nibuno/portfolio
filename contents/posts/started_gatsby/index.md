@@ -3,6 +3,7 @@ title: "GatsbyJSを利用してポートフォリオサイトを構築"
 description: "メンターさんに教えてもらいながらポートフォリオサイトを作ってみた"
 date: "2019-04-30"
 hero: ../../images/started-gatsby-hero-image.png
+tags: ["初心者", "Gatsby"]
 ---
 
 ## はじめに
@@ -20,6 +21,8 @@ GatsbyJSとはReactJS製の静的サイトジェネレーターのことです�
 - [RU-Blog](https://ru-blog.com):RUさん([@ru88s](https://twitter.com/ru88s))が作られたブログです。作られた際のメモを残されており、こういう風に作っていけば良いんだな〜と参考にさせてもらいました。
 - [bagelee GatsbyJSとNetlifyCMSでWebサイトを作ろう！](GatsbyJSとNetlifyCMSでWebサイトを作ろう！):最初にGatsbyJSについて調べた時にヒットして読んでいた記事です。この記事もわかりやすく、最初にNetlify CMSで公開するまでを取り組んでみました。（ただその公開できるサイトのメンテナンスが難しく、最初に取り組むにはあまりオススメできないです。。）
 - [Crient GatsbyJSをはじめる](https://crieit.net/posts/GatsbyJS):保活広場というWebサイトを運営されている、コリさん([@1042limit](https://twitter.com/1042limit))が投稿された記事です。Twitter上でGatsbyについて調べたらおすすめと紹介されていたのと、メンターのなかむさんからもおすすめされました。
+- [R note](https://rnote.work/):ryoさん([@rriver](https://twitter.com/rriver/)が運営されているブログ。react-helmetでググっていたところヒットして読ませてもらいました。
+- [Takumon Blog](https://takumon.com/):takumonさん([@inouetakumon](https://twitter.com/inouetakumon))が運営されているブログ。かなり完成度の高いブログです！　JS周りのこともたくさん書かれておりとても参考になります。
 
 おそらく私が説明するより、上述したサイトを訪問してもらう方がとてもわかりやすいと思います。
 

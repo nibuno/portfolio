@@ -32,8 +32,6 @@ const Header = ({ siteTitle, scrollY }) => (
             </Link>
           </h1>
         </div>
-        <div>
-        </div>
       </div>
     </div>
   </HeaderNav>

@@ -1,6 +1,5 @@
 // https://www.gatsbyjs.org/packages/gatsby-image/
 const path = require('path')
-const config = require('./data/siteConfig')
 
 module.exports = {
   siteMetadata: {
@@ -58,6 +57,12 @@ module.exports = {
         footnotes: true,
         pedantic: true,
         gfm: true,
+        options: {
+          tableOfContents: {
+            heading: null,
+            maxDepth: 6,
+          },
+        },
         plugins: [
           {
             resolve: `gatsby-remark-images`,
@@ -80,6 +85,18 @@ module.exports = {
               className: `custom-class`,
               maintainCase: false,
             },
+          },
+          {
+            resolve: 'gatsby-remark-toc',
+            options: {
+              header: '目次', // the custom header text
+              include: [
+                'contents/**/*.md' // an include glob to match against
+              ],
+              mdastUtilTocOptions: {
+                maxDepth: 3
+              }
+            }
           },
           {
             resolve: `gatsby-remark-prismjs`,

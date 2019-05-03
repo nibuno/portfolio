@@ -2,6 +2,7 @@
 title: "Reactって何？"
 description: "初心者がReactについて調べてみた"
 date: "2019-04-30"
+tags: ["初心者", "React"]
 ---
 
 ## はじめに
