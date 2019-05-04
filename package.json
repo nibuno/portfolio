@@ -39,6 +39,7 @@
     "tailwind.macro": "^0.5.10"
   },
   "devDependencies": {
+    "gatsby-remark-code-titles": "^1.1.0-rc.0",
     "prettier": "^1.16.4",
     "tailwindcss": "^0.7.4"
   },
