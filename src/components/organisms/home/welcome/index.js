@@ -6,7 +6,7 @@ import TwitterIcon from "@components/atoms/icon/twitter"
 import GithubIcon from "@components/atoms/icon/github"
 
 const SectionStyled = styled.section`
-  ${tw`w-full`};
+  ${tw`w-full bg-white`};
 
   // &::before {
   //   background-image: url(${heroImage});
@@ -20,7 +20,7 @@ const SectionStyled = styled.section`
 
 const Welcome = () => (
   <SectionStyled>
-    <div className="container mx-auto my-20">
+    <div className="container mx-auto my-24">
       <div className="flex justify-center items-center px-4 p-10">
         <div className="text-center w-full">
           <h3 className="text-black text-3xl">Hi, Everyone</h3>

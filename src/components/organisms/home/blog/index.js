@@ -33,7 +33,7 @@ const Blog = (props) => {
           </div>
         </div>
         <div className="flex justify-center">
-          <Link to="/posts" className="my-10 py-4 px-20 text-grey-darkest bg-grey-lighter hover:bg-grey-light font-bold rounded-sm no-underline">記事一覧へ</Link>
+          <Link to="/posts" className="my-10 py-4 px-20 mb-20 text-grey-darkest bg-grey-lighter hover:bg-grey-light font-bold rounded-sm no-underline">記事一覧へ</Link>
         </div>
       </InViewMonitor>
     </Section>

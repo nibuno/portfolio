@@ -3,7 +3,8 @@ import { graphql } from 'gatsby'
 import Layout from "@components/templates/layout"
 import SEO from "@components/seo"
 import Welcome from "@components/organisms/home/welcome"
-import About from "@components/organisms/home/about"
+import MyProfile from "@components/organisms/home/profile"
+import MySkills from "@components/organisms/home/skills"
 import Works from "@components/organisms/home/works"
 import Blog from "@components/organisms/home/blog"
 
@@ -12,7 +13,8 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="flex flex-col">
       <Welcome />
-      <About />
+      <MyProfile />
+      <MySkills />
       <Works />
       <Blog totalCount={data.allMarkdownRemark.totalCount} posts={data.allMarkdownRemark.edges} />
     </div>
