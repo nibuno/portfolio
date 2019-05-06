@@ -25,7 +25,7 @@ const Welcome = () => (
         <div className="text-center w-full">
           <h3 className="text-black text-3xl">Hi, Everyone</h3>
           <h1 className="text-black font-bold my-5 text-5xl">I'm Yumihiki!</h1>
-          <p className="text-black text-3xl">Designer / PHPer / Kyuder</p>
+          <p className="text-black text-2xl">Designer / PHPer / Kyuder</p>
           <div className="my-10">
             <a href="https://github.com/Yumihiki" target="_blank" rel="noreferrer noopener" aria-label="github" className="text-black hover:text-grey-darker mr-6">
               <GithubIcon className="fill-current w-10 h-10" />
