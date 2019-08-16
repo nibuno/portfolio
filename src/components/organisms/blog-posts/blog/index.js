@@ -39,10 +39,12 @@ const Blog = ({ posts, pageContext }) => {
       >
         <div className="container mx-auto mt-10">
           <SectionTitle title={`Blog`} subtitle="最新記事一覧" />
-          <div className="lg:flex justify-center w-full mt-6 mb-10">
+          <div className="flex flex-col justify-start mt-6 mb-10">
+          {/* <div className="lg:flex justify-center w-full mt-6 mb-10"> */}
 
             {posts.map(({ node }) => (
-              <div key={node.fields.slug} className="mx-2 lg:flex lg:w-1/4">
+              // <div key={node.fields.slug} className="mx-2 lg:flex lg:w-1/4">
+              <div key={node.fields.slug} className="mx-2">
                 <PostCard post={node} />
               </div>
             ))}
