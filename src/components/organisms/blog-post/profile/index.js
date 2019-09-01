@@ -47,7 +47,7 @@ const ProfileSection = () => (
             className="rounded-full mb-5 lg:mb-0 lg:mr-5"
             style={{ width: `100px` }}
           >
-            <Image filename="dog.jpeg" alt="Yumihiki" />
+            <Image filename="shoutingChickenIcon.jpg" alt="Yumihiki" />
           </div>
         </div>
         <div>
