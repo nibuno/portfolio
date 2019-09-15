@@ -16,17 +16,17 @@ tags: "振り返り"
 ## 勉強会
 
 エイチーム様主催のミートアップに参加しました。
-概要はこちらの記事にて投稿しました。
+概要は[こちら](https://yumihiki-portfolio.netlify.com/post/ateamtechmeetup-vol09/)の記事にて投稿しました。
 
 ## 勉強会その2
 
 ALAKI様主催のもくもく勉強会へ参加しました。
-概要はこちらの記事です。
+概要は[こちら](https://yumihiki-portfolio.netlify.com/post/alakiyurumoku-16/)の記事です。
 
 ## 転職活動イベント
 
 ポジウィル様主催の、リアルDEドットミーに参加しました。
-こちらに関しても、こちらにて投稿しました。
+概要は[こちら](https://yumihiki-portfolio.netlify.com/post/realdedotme/)にて投稿しました。
 
 ## 最後に
 
