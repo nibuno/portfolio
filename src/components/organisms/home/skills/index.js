@@ -27,7 +27,7 @@ const SkillBlockStyled = styled.div`
 function SkillItem(props) {
   return (
     <li>
-      <p>{props.name}</p>
+      <h3>{props.name}</h3>
       <div className="w-full align-center items-center align-middle content-center flex">
         <div className="w-full bg-grey-light rounded items-center align-middle align-center flex-1">
           <div
@@ -39,7 +39,11 @@ function SkillItem(props) {
           </div>
         </div>
       </div>
+      <div className="leading-normal pb-6">
       <p>{props.percentage}</p>
+      <p>{props.explanation}</p>
+      </div>
+      
     </li>
   )
 }
@@ -48,7 +52,7 @@ function Skill(props) {
   return (
     <ul>
       {props.skills.map((value, index) => {
-        return <SkillItem key={index} name={value.name} percentage={value.percentage} />
+        return <SkillItem key={index} name={value.name} percentage={value.percentage} explanation={value.explanation} />
       })}
     </ul>
   )
@@ -65,7 +69,6 @@ const MySkills = () => (
         <div className="lg:flex w-full my-6">
           <div className="flex-1 px-2">
             <SkillBlockStyled>
-              <h3>MY SKILLS</h3>
               <p>{json.mySkill.description}</p>
               <Skill skills={json.mySkill.skills} />
             </SkillBlockStyled>
