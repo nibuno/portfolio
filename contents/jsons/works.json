@@ -6,7 +6,7 @@
     "ended_on": "",
     "status": "",
     "tags": [
-      "Illustrator", "Photoshop", "InDesign", "Camera"
+      "Illustrator CS6", "Photoshop CS6", "InDesign CS6", "Camera Canon X8i"
     ],
     "link": ""
   },
@@ -17,7 +17,7 @@
     "ended_on": "",
     "status": "継続中",
     "tags": [
-      "電話応対", "PR"
+      "電話応対", "PR", "ヒアリング"
     ],
     "link": ""
   },
@@ -28,7 +28,7 @@
     "ended_on": "",
     "status": "",
     "tags": [
-      "Access", "VBA", "ライティング"
+      "Access2010", "VBA", "ライティング"
     ],
     "link": ""
   },
@@ -39,7 +39,7 @@
     "ended_on": "2017.3",
     "status": "",
     "tags": [
-      "Access", "VBA"
+      "Access2010", "VBA"
     ],
     "link": ""
   },
@@ -50,7 +50,7 @@
     "ended_on": "",
     "status": "運用開発中",
     "tags": [
-      "PHP", "HTML", "CSS", "JavaScript", "jQuery", "SQLite"
+      "PHP5.6", "HTML5", "CSS3", "JavaScript", "jQuery", "SQLite3"
     ],
     "link": ""
   },
@@ -94,7 +94,7 @@
     "ended_on": "2019.9",
     "status": "運用開発中",
     "tags": [
-      "PHP", "HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "SQLite"
+      "PHP7.1", "HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap4", "SQLite3"
     ],
     "link": ""
   }
