@@ -18,7 +18,7 @@ const Works = () => (
     >
       <div className="container lg:w-2/3 mx-auto mb-10">
         <SectionTitle title="Work Experience" subtitle="職務経歴"  />
-        <div className="pt-8">
+        <div className="p-8">
           <p>主な経歴は下記の通りです。デザイナー・カタログ作成・カスタマーサポート・社内SEのようなことを行なっています。また、こちらに掲載していない期間に関しては、掲載している業務を中心に行なっているため割愛しています。</p>
         </div>
         <Timeline works={json} />
