@@ -4,7 +4,7 @@ const path = require('path')
 module.exports = {
   siteMetadata: {
     title: `Yumihiki's Portfolio Site`,
-    description: `エンジニア志望のYumihikiのポーフォリオサイトです`,
+    description: `エンジニア志望のYumihikiのポートフォリオサイトです`,
     author: `@gatsbyjs`,
     siteUrl: `https://yumihiki-portfolio.netlify.com/`
   },
