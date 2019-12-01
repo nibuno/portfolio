@@ -25,7 +25,6 @@ tags: "振り返り"
 
 > IISのインストール
 > [インターネット インフォメーション サービス] > [World Wide Web サービス] > [アプリケーション開発機能] > [CGI] にチェックを入れる。
-
 > Download Visual Studio 2012 更新プログラム 4 の Visual C++ 再頒布可能パッケージ from Official Microsoft Download Centerからランタイムをダウンロードしてインストールする。
 
 (実際には2015をインストールしました)
