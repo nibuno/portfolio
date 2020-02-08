@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import tw from "tailwind.macro"
 import heroImage from "@contents/images/home-hero-image.jpg"
-import myIcon from "@contents/images/shoutingChickenIcon.jpg"
+import myIcon from "@contents/images/shoutingChickenIconJava.jpg"
 import TwitterIcon from "@components/atoms/icon/twitter"
 import GithubIcon from "@components/atoms/icon/github"
 
