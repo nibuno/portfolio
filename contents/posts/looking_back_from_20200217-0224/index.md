@@ -7,7 +7,7 @@ tags: "振り返り"
 
 ## はじめに
 
-こんにちは、Yumihikiです。先週はPyhonのフレームワークであるDjangoについて学習していました。
+こんにちは、Yumihikiです。先週はPythonのフレームワークであるDjangoについて学習していました。
 
 ## なぜDjango？
 
