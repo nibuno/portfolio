@@ -1,6 +1,6 @@
 ---
 title: "16日から22日までの振り返り"
-description: "Pythonを中心に学習していました。"
+description: "Pythonを中心に学習していました。2"
 date: "2020-03-22"
 tags: "振り返り"
 ---
